@@ -8,16 +8,106 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>0</bbox_right>
+  <bbox_right>1259</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>0</bbox_bottom>
+  <bbox_bottom>719</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>32</width>
-  <height>32</height>
-  <frames/>
+  <width>1260</width>
+  <height>720</height>
+  <frames>
+    <frame index="0">images\cinematica_1_0.png</frame>
+    <frame index="1">images\cinematica_1_1.png</frame>
+    <frame index="2">images\cinematica_1_2.png</frame>
+    <frame index="3">images\cinematica_1_3.png</frame>
+    <frame index="4">images\cinematica_1_4.png</frame>
+    <frame index="5">images\cinematica_1_5.png</frame>
+    <frame index="6">images\cinematica_1_6.png</frame>
+    <frame index="7">images\cinematica_1_7.png</frame>
+    <frame index="8">images\cinematica_1_8.png</frame>
+    <frame index="9">images\cinematica_1_9.png</frame>
+    <frame index="10">images\cinematica_1_10.png</frame>
+    <frame index="11">images\cinematica_1_11.png</frame>
+    <frame index="12">images\cinematica_1_12.png</frame>
+    <frame index="13">images\cinematica_1_13.png</frame>
+    <frame index="14">images\cinematica_1_14.png</frame>
+    <frame index="15">images\cinematica_1_15.png</frame>
+    <frame index="16">images\cinematica_1_16.png</frame>
+    <frame index="17">images\cinematica_1_17.png</frame>
+    <frame index="18">images\cinematica_1_18.png</frame>
+    <frame index="19">images\cinematica_1_19.png</frame>
+    <frame index="20">images\cinematica_1_20.png</frame>
+    <frame index="21">images\cinematica_1_21.png</frame>
+    <frame index="22">images\cinematica_1_22.png</frame>
+    <frame index="23">images\cinematica_1_23.png</frame>
+    <frame index="24">images\cinematica_1_24.png</frame>
+    <frame index="25">images\cinematica_1_25.png</frame>
+    <frame index="26">images\cinematica_1_26.png</frame>
+    <frame index="27">images\cinematica_1_27.png</frame>
+    <frame index="28">images\cinematica_1_28.png</frame>
+    <frame index="29">images\cinematica_1_29.png</frame>
+    <frame index="30">images\cinematica_1_30.png</frame>
+    <frame index="31">images\cinematica_1_31.png</frame>
+    <frame index="32">images\cinematica_1_32.png</frame>
+    <frame index="33">images\cinematica_1_33.png</frame>
+    <frame index="34">images\cinematica_1_34.png</frame>
+    <frame index="35">images\cinematica_1_35.png</frame>
+    <frame index="36">images\cinematica_1_36.png</frame>
+    <frame index="37">images\cinematica_1_37.png</frame>
+    <frame index="38">images\cinematica_1_38.png</frame>
+    <frame index="39">images\cinematica_1_39.png</frame>
+    <frame index="40">images\cinematica_1_40.png</frame>
+    <frame index="41">images\cinematica_1_41.png</frame>
+    <frame index="42">images\cinematica_1_42.png</frame>
+    <frame index="43">images\cinematica_1_43.png</frame>
+    <frame index="44">images\cinematica_1_44.png</frame>
+    <frame index="45">images\cinematica_1_45.png</frame>
+    <frame index="46">images\cinematica_1_46.png</frame>
+    <frame index="47">images\cinematica_1_47.png</frame>
+    <frame index="48">images\cinematica_1_48.png</frame>
+    <frame index="49">images\cinematica_1_49.png</frame>
+    <frame index="50">images\cinematica_1_50.png</frame>
+    <frame index="51">images\cinematica_1_51.png</frame>
+    <frame index="52">images\cinematica_1_52.png</frame>
+    <frame index="53">images\cinematica_1_53.png</frame>
+    <frame index="54">images\cinematica_1_54.png</frame>
+    <frame index="55">images\cinematica_1_55.png</frame>
+    <frame index="56">images\cinematica_1_56.png</frame>
+    <frame index="57">images\cinematica_1_57.png</frame>
+    <frame index="58">images\cinematica_1_58.png</frame>
+    <frame index="59">images\cinematica_1_59.png</frame>
+    <frame index="60">images\cinematica_1_60.png</frame>
+    <frame index="61">images\cinematica_1_61.png</frame>
+    <frame index="62">images\cinematica_1_62.png</frame>
+    <frame index="63">images\cinematica_1_63.png</frame>
+    <frame index="64">images\cinematica_1_64.png</frame>
+    <frame index="65">images\cinematica_1_65.png</frame>
+    <frame index="66">images\cinematica_1_66.png</frame>
+    <frame index="67">images\cinematica_1_67.png</frame>
+    <frame index="68">images\cinematica_1_68.png</frame>
+    <frame index="69">images\cinematica_1_69.png</frame>
+    <frame index="70">images\cinematica_1_70.png</frame>
+    <frame index="71">images\cinematica_1_71.png</frame>
+    <frame index="72">images\cinematica_1_72.png</frame>
+    <frame index="73">images\cinematica_1_73.png</frame>
+    <frame index="74">images\cinematica_1_74.png</frame>
+    <frame index="75">images\cinematica_1_75.png</frame>
+    <frame index="76">images\cinematica_1_76.png</frame>
+    <frame index="77">images\cinematica_1_77.png</frame>
+    <frame index="78">images\cinematica_1_78.png</frame>
+    <frame index="79">images\cinematica_1_79.png</frame>
+    <frame index="80">images\cinematica_1_80.png</frame>
+    <frame index="81">images\cinematica_1_81.png</frame>
+    <frame index="82">images\cinematica_1_82.png</frame>
+    <frame index="83">images\cinematica_1_83.png</frame>
+    <frame index="84">images\cinematica_1_84.png</frame>
+    <frame index="85">images\cinematica_1_85.png</frame>
+    <frame index="86">images\cinematica_1_86.png</frame>
+    <frame index="87">images\cinematica_1_87.png</frame>
+    <frame index="88">images\cinematica_1_88.png</frame>
+  </frames>
 </sprite>
