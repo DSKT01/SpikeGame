@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_dinosaurio</parentName>
   <maskName>obrero_corriendo</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -167,7 +167,7 @@ sonido = vida
 //___________________
 if !(estado = 3)
 {
-if distance_to_object(obj_spike)&lt;=300
+if distance_to_object(obj_spike_padre)&lt;=300
 {
 if contador &gt; 0
 {
@@ -191,7 +191,7 @@ estado = 3
 
 if estado = 3
 {
-if distance_to_object(obj_spike)&gt; 300
+if distance_to_object(obj_spike_padre)&gt; 300
 {
 estado = 1
 }
@@ -313,7 +313,7 @@ atk = 0
           <argument>
             <kind>1</kind>
             <string>///manejo de sprites
-if vida &gt;= 0
+if vida &gt; 0
 {
 if !(estado = 2)
 {
@@ -428,7 +428,7 @@ msh = 0
 }
 
 //general __________________
-xs = obj_spike.x
+xs = obj_spike_padre.x
 xm = x
 if xs - xm &gt;= 0
 {
@@ -471,7 +471,7 @@ if atk = 1
 {
 if bom = 1
 {
-if place_meeting(x,y,obj_spike)
+if place_meeting(x,y,obj_spike_padre)
 {
 global.vida = global.vida - ((damage*global.def)/100)
 }
@@ -479,7 +479,7 @@ global.vida = global.vida - ((damage*global.def)/100)
 }
 
 
-if place_meeting(x,y,obj_spike)
+if place_meeting(x,y,obj_spike_padre)
 {
 if global.lds &gt; 0
 {
@@ -494,7 +494,10 @@ alarm[10] = 17
 
 if place_meeting(x,y,obj_ataque)
 {
-vida = vida - 2
+if vida &gt; 0
+{
+vida = vida - 50
+}
 }
 
 if atk = 1

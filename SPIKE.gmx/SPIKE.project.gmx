@@ -130,12 +130,11 @@
       <sprite>sprites\maquina_del_tiempo</sprite>
     </sprites>
     <sprites name="MENU PRINCIPAL">
-      <sprite>sprites\game_over</sprite>
       <sprite>sprites\inicio</sprite>
-      <sprite>sprites\victoria</sprite>
       <sprite>sprites\cinematica_1</sprite>
       <sprite>sprites\cinematica_2</sprite>
       <sprite>sprites\cinematica_3</sprite>
+      <sprite>sprites\cinematica_0</sprite>
       <sprite>sprites\cinematica_4</sprite>
       <sprite>sprites\tutorial_moverse</sprite>
       <sprite>sprites\tutorial_recojer</sprite>
@@ -147,6 +146,8 @@
     <background>background\pasado</background>
     <background>background\futuro</background>
     <background>background\construccion</background>
+    <background>background\victor</background>
+    <background>background\derr</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -241,6 +242,7 @@
       <object>objects\obj_cinematica_2</object>
       <object>objects\obj_cinematica_3</object>
       <object>objects\obj_cinematica_4</object>
+      <object>objects\obj_cinematica_0</object>
       <object>objects\obj_inicio</object>
       <object>objects\obj_gameover</object>
       <object>objects\obj_derrota</object>
@@ -257,9 +259,9 @@
     <room>rooms\R_CINEMATIC_2</room>
     <room>rooms\NINEL_2</room>
     <room>rooms\R_CINEMATIC_3</room>
-    <room>rooms\NINEL_3</room>
-    <room>rooms\R_CINEMATIC_4</room>
     <room>rooms\NINEL_4</room>
+    <room>rooms\R_CINEMATIC_4</room>
+    <room>rooms\NINEL_3</room>
     <room>rooms\R_CINEMATIC_5</room>
     <room>rooms\R_VICTORIA</room>
     <room>rooms\R_DERROTA</room>

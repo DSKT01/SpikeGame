@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>robot_corriendo</maskName>
+  <maskName>dino_corriendo</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -167,7 +167,7 @@ sonido = vida
 //___________________
 if !(estado = 3)
 {
-if distance_to_object(obj_spike)&lt;=300
+if distance_to_object(obj_spike_padre)&lt;=300
 {
 if contador &gt; 0
 {
@@ -191,7 +191,7 @@ estado = 3
 
 if estado = 3
 {
-if distance_to_object(obj_spike)&gt; 300
+if distance_to_object(obj_spike_padre)&gt; 300
 {
 estado = 1
 }
@@ -313,7 +313,7 @@ atk = 0
           <argument>
             <kind>1</kind>
             <string>///manejo de sprites
-if vida &gt;= 0
+if vida &gt; 0
 {
 if !(estado = 2)
 {
@@ -431,7 +431,7 @@ msh = 0
 }
 
 //general __________________
-xs = obj_spike.x
+xs = obj_spike_padre.x
 xm = x
 if xs - xm &gt;= 0
 {
@@ -481,7 +481,7 @@ instance_create(x,y,obj_diaparo_enemigo)
 }
 
 
-if place_meeting(x,y,obj_spike)
+if place_meeting(x,y,obj_spike_padre)
 {
 if global.lds &gt; 0
 {
@@ -494,9 +494,12 @@ alarm[10] = 17
 }
 }
 
-if place_meeting(x,y,obj_ataque)
+if distance_to_object(obj_ataque) &lt;= 20
 {
-vida = vida - 2
+if vida &gt; 0
+{
+vida = vida - 50
+}
 }
 
 if atk = 1

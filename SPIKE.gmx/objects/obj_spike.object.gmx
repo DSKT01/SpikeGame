@@ -214,8 +214,10 @@ if (place_meeting (x, floor(y+32*(sign(vs))) , obj_bloque_padre)) then
             y = y + ((sign(vs))/128)
             if (sign(vs) &gt; 0) then
             {
+                
                 psalto = true
             }
+           
         }
         
         if (vs &gt; 20) then
@@ -261,7 +263,7 @@ if atacando = true then
     global.ms_player = 0
     }
 //.algo
-if (global.it_casco_de_hueso= true)||(global.it_casco_laser= true)||(global.it_hueso = true)||(global.it_casco_obrero = true) then
+if (global.it_casco_laser= true)||(global.it_hueso = true)||(global.it_casco_obrero = true) then
     {
     global.algo = true;
     }
@@ -301,6 +303,8 @@ if (global.it_casco_de_hueso= true)||(global.it_casco_laser= true)||(global.it_h
             <kind>1</kind>
             <string>///manejo de sprites
 //manejo de variables
+
+
 if derecha then
     {
     global.pad = true
@@ -311,14 +315,16 @@ if izquierda then
     global.pad = false
     global.pal = true
     }
-if place_meeting(x,y+16,obj_bloque_padre) then
-    {
-    piso = true
-    }
-    else
-    {
-    piso = false
-    }
+    
+if place_meeting(x,y+1,obj_bloque_padre)
+{
+piso = true
+}
+else
+{
+piso = false
+}
+
 //manejo de sprites
 if global.pal = true then
     {
@@ -377,6 +383,9 @@ if accion then
     audio_play_sound(snd_spike_da_o,10,false)
     }
     }
+
+    
+    
 
 
 </string>

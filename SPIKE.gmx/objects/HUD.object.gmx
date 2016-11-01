@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>
 draw_sprite(barra_vida,1,view_xview[0],view_yview[0])
-draw_healthbar(view_xview[0]+60,view_yview[0]+16+32-22,view_xview[0]+600,view_yview[0]+20+32-22,global.vida,c_black,c_red,c_white,0,false,false)
+draw_healthbar(view_xview[0]+60,view_yview[0]+16+32-22,view_xview[0]+600,view_yview[0]+20+32-22,global.vida,c_black,c_red,c_red,0,false,false)
 draw_set_colour(c_white)
 draw_text(view_xview[0]+16,view_yview[0]+10+10,global.vidas)
 if global.it_bateria = true 
@@ -50,7 +50,7 @@ draw_sprite(casco_de_hueso,1,view_xview[0]+800,view_yview[0]+32)
 }
 if global.it_casco_laser = true
 {
-draw_sprite(casco_laser,1,view_xview[0]+800,view_yview[0]+32)
+draw_sprite(casco_laser,1,view_xview[0]+800,view_yview[0]+38)
 }
 if global.it_hueso = true
 {
