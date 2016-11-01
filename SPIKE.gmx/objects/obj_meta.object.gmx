@@ -77,7 +77,7 @@ alarm[0] = 16
 }
 
 
-if distance_to_object(obj_spike) &lt; 600
+if distance_to_object(obj_spike_padre) &lt; 600
 {
 if nepe = true
 {

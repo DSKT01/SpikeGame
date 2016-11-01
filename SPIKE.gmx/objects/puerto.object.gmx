@@ -60,11 +60,11 @@ lll = 1
 
 
 
-if object_exists(obj_spike)
+if object_exists(obj_spike_padre)
 {
 
-x = obj_spike.x + (50*lll)
-y = obj_spike.y - 23
+x = obj_spike_padre.x + (50*lll)
+y = obj_spike_padre.y - 23
 
 }
 

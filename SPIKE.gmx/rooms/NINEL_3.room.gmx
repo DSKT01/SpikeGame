@@ -53,13 +53,15 @@ audio_play_sound(snd_nivel3,10,true)</code>
   </views>
   <instances>
     <instance objName="obj_control_items" x="224" y="32" name="inst_C761A6CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="view" x="160" y="32" name="inst_0FF12586" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="HUD" x="64" y="32" name="inst_14DBF43F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="contorl_de_ataques" x="32" y="32" name="inst_79F6451E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="puerto" x="128" y="32" name="inst_13DF4577" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="manejo_de_vida" x="256" y="32" name="inst_9AA7FECF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cositas" x="288" y="32" name="inst_0E3C7F3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gameover" x="320" y="32" name="inst_366BFCF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_meta_nivel1" x="192" y="448" name="inst_6F3E0E13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spike" x="224" y="96" name="inst_0C36A01B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="view" x="160" y="32" name="inst_0FF12586" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

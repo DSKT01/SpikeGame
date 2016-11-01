@@ -60,6 +60,8 @@ audio_play_sound(snd_nivel4,10,true)</code>
     <instance objName="manejo_de_vida" x="256" y="32" name="inst_9AA7FECF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cositas" x="288" y="32" name="inst_98301CD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gameover" x="320" y="32" name="inst_859E565A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spike" x="192" y="192" name="inst_703C4FCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_parte_2_maquina" x="192" y="480" name="inst_8F4E0E75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

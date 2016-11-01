@@ -152,6 +152,7 @@
   <objects name="objects">
     <objects name="SPIKE">
       <object>objects\obj_spike</object>
+      <object>objects\obj_spike_padre</object>
       <object>objects\obj_spike_meta</object>
     </objects>
     <objects name="ENEMIGOS">
