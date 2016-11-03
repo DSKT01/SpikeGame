@@ -359,7 +359,8 @@ atacando = true
 
 }
 }
-
+if vida &gt; 0
+{
 if dir = 1
 {
 image_xscale = 1
@@ -368,7 +369,7 @@ if dir = -1
 {
 image_xscale = -1
 }
-
+}
 if vida &lt;= 0
 {
 muriendo = true
