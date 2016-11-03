@@ -59,11 +59,11 @@ global.ladrando = false
             <string>
 if global.energia &lt; 100
 {
-global.energia = global.energia + 0.1
+global.energia = global.energia + 0.25
 }
 if global.poder &lt; 100
 {
-global.poder = global.poder + 0.25
+global.poder = global.poder + 0.15
 }
 
 

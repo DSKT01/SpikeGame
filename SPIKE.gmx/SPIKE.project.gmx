@@ -27,6 +27,7 @@
     <sound>sound\snd_trex_sleep</sound>
     <sound>sound\snd_victoria</sound>
     <sound>sound\snd_derrota</sound>
+    <sound>sound\snd_intermedio</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="SPIKE">

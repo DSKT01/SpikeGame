@@ -1152,7 +1152,7 @@ audio_play_sound(snd_nivel1,10,true)</code>
     <instance objName="obj_bloque_normal_laboratorio" x="6944" y="544" name="inst_CB8896F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_laboratorio" x="6912" y="544" name="inst_73070084" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_laboratorio" x="6880" y="544" name="inst_092CEA81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_llave" x="7104" y="448" name="inst_730D385A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_llave" x="7424" y="640" name="inst_730D385A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_puerta" x="7584" y="512" name="inst_0339CA54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_laboratorio" x="7584" y="480" name="inst_8BA94795" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_laboratorio" x="7584" y="448" name="inst_447F6BB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

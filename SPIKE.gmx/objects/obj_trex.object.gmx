@@ -28,7 +28,7 @@
             <string>vida = 500
 msh = 6
 msv = 32
-contador = 150
+contador = 50
 estado = 1
 durmiendo = true
 
@@ -175,7 +175,7 @@ estado = 2
 }
 else
 {
-contador = 150
+contador = 50
 estado = 1
 }
 }

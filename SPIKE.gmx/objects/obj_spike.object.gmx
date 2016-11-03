@@ -157,7 +157,8 @@ global.accionando = false;
             <string>///step 
 //nuevas variables
 
-
+if object_exists(obj_spike_padre)
+{
 if piso = true then
     {
     recojer = keyboard_check_pressed(ord("E"))
@@ -263,7 +264,7 @@ if atacando = true then
     global.ms_player = 0
     }
 //.algo
-if (global.it_casco_laser= true)||(global.it_hueso = true)||(global.it_casco_obrero = true) then
+if ((global.it_casco_laser = true) &amp;&amp; (global.energia &gt; 0) &amp;&amp; (global.it_bateria = true))||(global.it_hueso = true)||(global.it_casco_obrero = true) then
     {
     global.algo = true;
     }
@@ -275,7 +276,7 @@ if (global.it_casco_laser= true)||(global.it_hueso = true)||(global.it_casco_obr
     
     global.lds = global.accionando + atacando
     
-    
+    }
    
     
     
