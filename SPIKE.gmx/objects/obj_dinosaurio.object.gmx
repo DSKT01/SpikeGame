@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>self</parentName>
   <maskName>dino_corriendo</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>vida = 100
-msh = 6
+msh = 8
 msv = 32
 contador = 30
 estado = 1
@@ -467,7 +467,7 @@ hspeed = msh * dir * mov
           <argument>
             <kind>1</kind>
             <string>///daño
-bom = floor(random_range(0,50))
+bom = floor(random_range(0,35))
 
 if atk = 1
 {

@@ -43,7 +43,7 @@ vs = 0
 hs = 0
 global.ms_player = 8
 g = 1
-js = -12
+js = -16
 piso = true
 //direccion
 global.pal = false;
@@ -198,8 +198,7 @@ if (jump) then
         psalto = false
         }
     }
-    else
-    {
+   
         if (!place_meeting (x, y+16*sign(vs) , obj_bloque_padre)) then
         {
             if (vs &lt; 32) then
@@ -207,7 +206,7 @@ if (jump) then
             vs = vs + g
             }
         }
-    }
+    
 if (place_meeting (x, floor(y+32*(sign(vs))) , obj_bloque_padre)) then
 {
         while (!place_meeting(x ,y+sign(vs),obj_bloque_padre))
@@ -264,7 +263,7 @@ if atacando = true then
     global.ms_player = 0
     }
 //.algo
-if ((global.it_casco_laser = true) &amp;&amp; (global.energia &gt; 0) &amp;&amp; (global.it_bateria = true))||(global.it_hueso = true)||(global.it_casco_obrero = true) then
+if ((global.it_casco_laser = true) &amp;&amp; (global.energia &gt; 0) &amp;&amp; (global.it_bateria = true))||(global.it_hueso = true) then
     {
     global.algo = true;
     }

@@ -794,12 +794,10 @@ audio_play_sound(snd_nivel2,10,true)</code>
     <instance objName="obj_bloque_normal_prehistorico" x="5920" y="448" name="inst_AF275E58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="5952" y="448" name="inst_6FF5B7F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="5984" y="448" name="inst_BF5E3C2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloque_normal_prehistorico" x="6016" y="448" name="inst_550ADBC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="5600" y="448" name="inst_DC44969C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="5568" y="448" name="inst_C9F3305A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="5536" y="448" name="inst_56D3376B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="5504" y="448" name="inst_B592AEBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloque_normal_prehistorico" x="6144" y="384" name="inst_AFDBFD3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6176" y="384" name="inst_B4697269" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6208" y="384" name="inst_F3F2FD07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6240" y="384" name="inst_F50FAE7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -807,7 +805,6 @@ audio_play_sound(snd_nivel2,10,true)</code>
     <instance objName="obj_bloque_normal_prehistorico" x="6304" y="384" name="inst_22997170" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6336" y="384" name="inst_3C20E500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6368" y="384" name="inst_8805D9B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bloque_normal_prehistorico" x="6400" y="384" name="inst_D069CACD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6528" y="320" name="inst_CE9E6DB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6560" y="320" name="inst_3E75CFCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bloque_normal_prehistorico" x="6592" y="320" name="inst_35CA5D0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1001,6 +998,28 @@ audio_play_sound(snd_nivel2,10,true)</code>
     <instance objName="obj_croqueta" x="3488" y="640" name="inst_FBF6FAA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_croqueta" x="5472" y="640" name="inst_DE1611D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_croqueta" x="8672" y="640" name="inst_00D25659" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="672" name="inst_B863427B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="640" name="inst_64125818" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="608" name="inst_B106E8C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="576" name="inst_8623E3B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="544" name="inst_9774ED02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="512" name="inst_8CC61EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="480" name="inst_3A51FEBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="448" name="inst_C9371356" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="416" name="inst_15D8546D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="384" name="inst_FA32928B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="352" name="inst_777B5AE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="320" name="inst_369708E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="288" name="inst_1B4CF4B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="256" name="inst_013E80FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="224" name="inst_59B1AA8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="192" name="inst_9591A0CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="160" name="inst_02AC34B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="128" name="inst_A7608511" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="96" name="inst_74E44D74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="64" name="inst_F2EA6A52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="32" name="inst_5A469297" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="bloqueo" x="10848" y="0" name="inst_542FB830" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

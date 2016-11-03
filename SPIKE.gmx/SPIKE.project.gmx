@@ -141,6 +141,7 @@
       <sprite>sprites\tutorial_recojer</sprite>
       <sprite>sprites\tutorial_atacar</sprite>
     </sprites>
+    <sprite>sprites\bloque_inv</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\laboratorio</background>
@@ -163,9 +164,11 @@
       </objects>
       <objects name="robot">
         <object>objects\obj_robot</object>
+        <object>objects\obj_robot_boss</object>
       </objects>
       <objects name="cientifico">
         <object>objects\obj_cientifico</object>
+        <object>objects\obj_boss_final</object>
       </objects>
       <objects name="obrero">
         <object>objects\obj_obrero</object>
@@ -252,6 +255,8 @@
       <object>objects\obj_tutorial_moverse</object>
       <object>objects\obj_tutorial_atacar</object>
     </objects>
+    <object>objects\bloqueo</object>
+    <object>objects\enemigo_padre</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\R_INICIO</room>

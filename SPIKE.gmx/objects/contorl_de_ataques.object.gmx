@@ -132,7 +132,7 @@ if global.lds &gt; 0
     }}
     if global.it_silvato = true
     {
-    if global.poder = 100
+    if global.poder &gt;= 100
     {
     global.poder = 0
     instance_create(view_xview[0],puerto.y,obj_manada_perros)
